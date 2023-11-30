@@ -62,14 +62,14 @@ private function getArticleById($id)
 
 
 use Model\Article;
-use Control\DatabaseManager;
+use Controller\DatabaseManager;
 
 class ArticleController
 {
     public function index()
     {
         $articles = $this->getArticles();
-        require 'View/articles/index.php';
+        //require 'View/articles/index.php';
     }
 
     private function getArticles()
