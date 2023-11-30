@@ -1,0 +1,17 @@
+{
+    "name": "becode/mvc",
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/Controller",
+            "Model\\": "src/Model",
+            "View\\": "src/View"
+        }
+    },
+    "authors": [
+        {
+            "name": "iradukunda okly",
+            "email": "iradukundaokly@gmail.com"
+        }
+    ],
+    "require": {}
+}
